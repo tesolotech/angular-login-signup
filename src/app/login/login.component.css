@@ -1,0 +1,20 @@
+.login-banner {
+  background: url("../../assets/images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-banner #page-wrapper {
+  padding: 5em 2em 2.5em;
+  background-color: rgba(255, 255, 255, 0.78);
+  min-height: 100vh !important;
+}
+
+div#page-wrapper {
+  margin: 0;
+}
+
+.login-page {
+  box-shadow: 3px 4px 13px 0px #ad9f9f;
+}

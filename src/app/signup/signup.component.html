@@ -1,0 +1,36 @@
+<div class="main-content login-banner">
+  <!-- main content start-->
+  <div id="page-wrapper">
+    <div class="main-page login-page ">
+      <h2 class="title1">SIGN-UP</h2>
+      <div class="widget-shadow">
+        <div class="login-body">
+          <form [formGroup]="userForm" (ngSubmit)="signup()">
+            <div class="position-relative">
+              <span class="login_user_img"><img src="assets/images/user.png" /></span>
+              <input type="email" class="user" name="name" placeholder="Enter Your Name" formControlName="name">
+            </div>
+            <div class="position-relative">
+              <span class="login_user_img"><img src="assets/images/user.png" /></span>
+              <input type="email" class="user" name="email" placeholder="Enter Your Email" formControlName="email">
+            </div>
+
+            <div class="position-relative">
+              <span class="login_password_img"><img src="assets/images/lock.png" /></span>
+              <input type="password" name="password" class="lock" placeholder="Password" formControlName="password">
+            </div>
+
+            <input type="submit" name="Sign In" value="signup">
+            <div class="registration">
+              You have an account ?
+              <a class="" routerLink="/">
+                Login here
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

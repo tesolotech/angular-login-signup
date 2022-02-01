@@ -1,0 +1,19 @@
+<div>
+  <h1>Users</h1> <span style="margin-right: 20px;">
+    <button style="float: right; color: red; background-color: yellow;" (click)="logout()">Log out</button>
+  </span>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of userList">
+        <td>{{ item.name }}</td>
+        <td>{{ item.email }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
